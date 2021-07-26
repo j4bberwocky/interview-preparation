@@ -1,4 +1,4 @@
-package it.j4bberwocky.leetcode;
+package it.j4bberwocky.ds;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -13,8 +13,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class MyHashSetTest {
-
+class MyHashSetTest {
+    
     private static Map<String, Method> instanceMethods;
     private MyHashSet instance;
 
@@ -70,5 +70,4 @@ public class MyHashSetTest {
         Boolean[] output = output(inputMethods, inputParam);
         assertArrayEquals(expected, output);
     }
-    
 }

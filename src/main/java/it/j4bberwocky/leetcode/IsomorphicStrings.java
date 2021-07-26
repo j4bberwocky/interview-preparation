@@ -3,6 +3,7 @@ package it.j4bberwocky.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
+/** See https://leetcode.com/problems/isomorphic-strings/ */
 public class IsomorphicStrings {
 
     public boolean isIsomorphic(String s, String t) {
