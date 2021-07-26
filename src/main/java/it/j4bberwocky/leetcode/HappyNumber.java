@@ -1,4 +1,4 @@
-package it.j4bberwocky.maps;
+package it.j4bberwocky.leetcode;
 
 import java.util.HashSet;
 import java.util.Set;
