@@ -6,6 +6,10 @@ import java.util.List;
 public class ArrayManipulation {
 
     public static long arrayManipulation(int n, List<List<Integer>> queries) {
+
+        // l'idea è di salvare gli estermi a e b
+        // vedi https://www.hackerrank.com/challenges/crush/forum/comments/255515
+        // grande idea
         
         long[] array = new long[n+1];
         
