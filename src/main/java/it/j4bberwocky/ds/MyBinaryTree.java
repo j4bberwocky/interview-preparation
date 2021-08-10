@@ -41,7 +41,7 @@ public class MyBinaryTree {
     /** Visit the left branch, than the current node and finally the right node */
     void inOrderTraversal(TreeNode node) {
         // when performed on a binary search tree it visti the nodes in ascending order
-        if (node == null) {
+        if (node != null) {
             inOrderTraversal(node.left);
             visit(node);
             inOrderTraversal(node.right);   
@@ -50,7 +50,7 @@ public class MyBinaryTree {
 
     /** Visit the current node BEFORE its child nodes */
     void preOrderTraversal(TreeNode node) {
-        if (node == null) {
+        if (node != null) {
             visit(node);
             preOrderTraversal(node.left);
             preOrderTraversal(node.right);
@@ -59,7 +59,7 @@ public class MyBinaryTree {
 
     /** Visit the current node AFTER its child nodes */
     void postOrderTraversal(TreeNode node) {
-        if (node == null) {
+        if (node != null) {
             postOrderTraversal(node.left);
             postOrderTraversal(node.right);
             visit(node);
